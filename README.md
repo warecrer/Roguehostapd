@@ -9,6 +9,11 @@ git clone https://github.com/wifiphisher/roguehostapd.git # Download the latest 
 cd roguehostapd # Switch to the roguehostapd directory
 python setup.py install # Build the shared library of hostapd
 ```
+Next additional package.. if cannot install completely
+apt-get install libnl-3-dev 
+apt-get install libnl-genl-3-dev
+apt-get install libssl-dev
+
 
 ## Usage
 
@@ -68,3 +73,4 @@ Following are all the options along with their descriptions (also available with
 |-K|--key_data|Include key data in debug messages|
 |-t|--timestamp|Include timestamps in some debug messages|
 |-v|--version|Show hostapd version|
+
